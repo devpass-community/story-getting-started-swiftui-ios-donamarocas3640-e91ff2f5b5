@@ -8,18 +8,12 @@ struct SplashView: View {
                 .scaledToFit()
                 .frame(width: 100, height: 100)
                 
-            if #available(iOS 16.0, *) {
-                Text("Welcome to Evercode!")
-                    .padding(16)
-                    .font(.title)
-                    .fontWeight(.semibold)
-            } else {
-                // Fallback on earlier versions
-            }
-                
-                
+            Text("Welcome to Evercode!")
+                .padding(16)
+                .font(.title)
+                .fontWeight(.semibold)
+            
         }
-        
     }
 }
 
