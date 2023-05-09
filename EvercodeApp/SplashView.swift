@@ -10,8 +10,7 @@ struct SplashView: View {
                 
             Text("Welcome to Evercode!")
                 .padding(16)
-                .font(.title)
-                .fontWeight(.semibold)
+                .font(Font.title.weight(.semibold))
             
         }
     }
