@@ -5,7 +5,6 @@ struct SplashView: View {
         VStack {
             Image("EvercodeLogo")
                 .resizable()
-                .scaledToFit()
                 .frame(width: 100, height: 100)
                 
             Text("Welcome to Evercode!")
